@@ -1,0 +1,13 @@
+[
+  {
+    "task_id": "b1a10184-74b4-4260-a1ab-ff7948007d0e",
+    "data_file": "nellie.csv",
+    "keywords": "Nellie Ohr",
+    "from": "2016-12-01 00:00:00",
+    "to": "2022-01-01 00:00:00",
+    "frequency": "Monthly",
+    "disinformer_narrative": "The Nellie Ohr conspiracy theory suggests that Nellie Ohr, the wife of former DOJ official Bruce Ohr, played a role in undermining Donald Trump’s campaign and presidency. The theory claims that Nellie Ohr, who worked for Fusion GPS, was involved in creating the controversial ‘Steele dossier’ that made unverified claims about Trump’s connections to Russia. Supporters of the theory argue that Nellie Ohr’s employment at Fusion GPS implies a collaboration between the DOJ, FBI, and anti-Trump forces to fabricate damaging information against him. They believe this collaboration aimed to interfere with the 2016 election and undermine Trump’s presidency. \n\n Tell me if the article is Misinformation (i.e. if it perpetuates the conspiracy theory)",
+    "mitigator_narrative": "The Nellie Ohr conspiracy theory suggests that Nellie Ohr, the wife of former DOJ official Bruce Ohr, played a role in undermining Donald Trump’s campaign and presidency. The theory claims that Nellie Ohr, who worked for Fusion GPS, was involved in creating the controversial ‘Steele dossier’ that made unverified claims about Trump’s connections to Russia. Supporters of the theory argue that Nellie Ohr’s employment at Fusion GPS implies a collaboration between the DOJ, FBI, and anti-Trump forces to fabricate damaging information against him. They believe this collaboration aimed to interfere with the 2016 election and undermine Trump’s presidency. \n\n Tell me if the article is Counter-Misinformation (i.e. if it tries to debunk/show why it is false)",
+    "neutral_narrative": "Otherwise tell me if is Not Applicable: if it has nothing to do with the conspiracy theory in question"
+  }
+]

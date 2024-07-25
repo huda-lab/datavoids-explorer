@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+selenium = "*"
+numpy = "*"
+webdriver-manager = "*"
+psycopg2 = "*"
+requests = "*"
+flask = "*"
+flask-cors = "*"
+requests_html = "*"
+trafilatura = "*"
+lxml = "*"
+openai = "*"
+tiktoken = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+gspread = "*"
+google-auth = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"

@@ -1,0 +1,57 @@
+{
+  "datavoids_explorer_ui": {
+    "tasks_manager_url": "http://localhost:5000"
+  },
+  "tasks_manager": {
+    "port": "5000"
+  },
+  "google_search_crawler": {
+    "interval": 1000,
+    "num_results": 10,
+    "google_search_api": {
+      "key": "<SECRET>",
+      "cse_id": "<SECRET>"
+    }
+  },
+  "content_labeler": {
+    "interval": 1000,
+    "labeler": "chat_gpt"
+  },
+  "content_fetcher": {
+    "interval": 1000,
+    "always_use_selenium": false,
+    "headless": true,
+    "timeout": 30,
+    "ignore_extensions": [
+      "pdf",
+      "xsls",
+      "txt"
+    ]
+  },
+  "databases": {
+    "datavoids_explorer": {
+      "name": "datavoids_explorer",
+      "user": "postgres",
+      "password": "<SECRET>",
+      "host": "localhost",
+      "port": "5432"
+    },
+    "datavoids_simulator_work": {
+      "name": "mis_sim_work",
+      "user": "postgres",
+      "password": "<SECRET>",
+      "host": "localhost",
+      "port": "5432"
+    }
+  },
+  "APIs": {
+    "open_ai": {
+      "key": "<SECRET>",
+      "model": "gpt-3.5-turbo",
+      "target_tokens": 4000
+    },
+    "google_sheets_api": {
+      "credentials_file": "gsa_cred.json"
+    }
+  }
+}
